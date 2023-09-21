@@ -1,0 +1,10 @@
+<div class="input-group mb-3">
+  <input
+    #inputElementRef
+    [value]="title"
+    type="text"
+    class="form-control form-control-lg"
+    placeholder="Title Todo"
+  >
+  <button class="btn btn-success" type="button" (click)="changeTitle(inputElementRef.value)">Save</button>
+</div>
